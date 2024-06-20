@@ -1,0 +1,336 @@
+@media only screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (min--moz-device-pixel-ratio: 2),
+only screen and (max-width: 768px) and (-o-min-device-pixel-ratio: 2/1) {
+
+
+
+    .ModalContainer{
+      margin-left: 40px;
+    
+        position: fixed; 
+    top: 30%; 
+    left: -4%; 
+    /* transform: translate(-43%, -50%);  */
+    width: 350px; 
+    max-width: 380px;
+    padding: 20px; 
+    border-radius: 10px;
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#2f2727), to(black));
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.396), 0 6px 20px 0 rgba(0, 0, 0, 0.67);
+      }
+      .modalMessage {
+        text-align: center; 
+    }
+
+
+      .modalMessage{
+        margin-top: 50px;
+          width: 320px;
+          margin-right: 0px;
+          font-weight: bold;
+          color: goldenrod;
+        margin-left:0px;
+          letter-spacing: 1px;
+          font-size: 20px;
+          text-align: center;
+      }
+      
+      .closeButton{
+        text-align: center;
+          position: fixed;
+          background-color: rgba(255, 217, 0, 0.658) !important;
+          border-radius: 5px;
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin-top: 15px;
+          margin-left: 290px;
+          cursor: pointer;
+          padding: 2px 6px;
+          transition-duration: 0.4s;
+      }
+      .modalButtons{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-direction: row;
+        gap: 10px; 
+      }
+      
+      .Modal{
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(226, 216, 216, 0.137);
+      font-size: 21px;
+      }
+      
+      
+      .overlay {
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 9999; 
+      }
+      .balance {
+        color: goldenrod;
+        display: block;
+        position: fixed;
+        width: 500px;
+       transform: translate(4.4%,24%);
+        text-align: left; 
+      }
+      
+      
+      
+      .t_address{
+        color: goldenrod;
+        font-weight: -100;
+        width: 410px;
+        transform: translate(11%,70%);
+      
+      }
+      
+      ._address{
+        color: goldenrod;
+       cursor:pointer;
+        width: 410px;
+        transform: translate(11%,66%);
+      
+      }
+      .message_tooltip{
+        position:absolute;
+        color: white;
+        transform: translate(785%,-90%);
+        font-size: 11px;
+      }
+      
+      .walletAddressButton, .getTokens
+      { padding: 7px 30px;
+        text-align: center;
+        background-color: rgba(255, 217, 0, 0.658) !important;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+      }
+      .text{
+        transform: translate(0%,0%);
+      }
+      .TwitSt , .Twit , .TxHash{
+        transform: translate(15%,36%);
+      width: 160px;
+      height: 40px ;
+        text-align: center;
+        background-color: rgba(21, 21, 20, 0.658) !important;
+        border-radius: 20px;
+        color: rgb(253, 249, 249);
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        margin-top: 5px;
+       margin: 0;
+      }
+      
+      
+      .walletAddressButton:focus-visible, .getTokens:focus-visible {
+      
+        box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+        transition: box-shadow .2s;
+      }
+      
+      .walletAddressButton:active, .getTokens:active {
+        background-color: #0e0e0eda;
+        border-color: #8e8e8e;
+        position: relative;
+        display: inline-block;
+        transform: scale(.96);
+      }
+      
+      .walletAddressButton:disabled, .getTokens:disabled {
+        border-color: #0a0909da;
+        color: #000000;
+        cursor: not-allowed;
+        opacity: 1;
+      }
+      
+      
+      .errorMessage{
+      font-weight: bold;
+      color: goldenrod;
+      text-transform: uppercase;
+      display: block;
+      }
+      
+      
+        .txmsg{
+          width: 200px;
+          height: 40px ;
+            text-align: center;
+            background-color: rgba(21, 21, 20, 0.658) !important;
+            border-radius: 20px;
+            color: rgb(253, 249, 249);
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            margin-top: 5px;
+            margin-left: 10px;
+      
+        } 
+      
+      
+      
+      
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+          }
+          
+          body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+     
+            font-family: Arial, sans-serif;
+            background: -webkit-gradient(radial, center center, 0, center center, 500, from(rgba(69, 69, 68, 0.821)), to(#1a1917));
+          
+          }
+          
+          .content-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+       
+          }
+          
+          .popup {
+            position: absolute;
+           
+            left: 50%;
+            background-color: rgba(0, 0, 0, 0.452);
+            border: 1px solid black;
+            display: none;
+            border-radius: 10px;
+            width: 370px;
+            height: 155px;
+            border: 1px solid rgb(231, 229, 212);
+            line-height: 2;
+           
+          }
+          
+          
+          
+          
+          .show {
+            display: block;
+          }
+          
+          .button_container, .container {
+            position: relative; 
+          }
+          
+          .frame {
+             width: 380px;
+            height: 700px;
+            background: -webkit-gradient(radial, center center, 0, center center, 460, from(#2f2727), to(black));
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 20px;
+            box-shadow: 10 0 10px rgba(40, 39, 39, 0.758);
+            margin: 0 auto;
+            border: 1px solid rgb(234, 218, 218);
+            transform: translate(0%,0%);
+          }
+          
+          .logo {
+            border-radius: 50px 50px 50px 50px;
+            border: 2px solid #d6b70a;
+            width: 100px;
+            height: auto;
+          
+            opacity: 0.7;
+            filter: grayscale(40%) sepia(100%) brightness(109%) saturate(241%) opacity(100%) contrast(137%) drop-shadow(0px 0px 0px #d8991cda);
+          -webkit-filter: grayscale(40%) sepia(100%) brightness(109%) saturate(241%) opacity(100%) contrast(137%) drop-shadow(0px 0px 0px #cdb00e);
+          -moz-filter: grayscale(40%) sepia(100%) brightness(109%) saturate(241%) opacity(50%) contrast(137%) drop-shadow(0px 0px 0px #a18b0d);
+          box-shadow: 0 5px 10px rgba(252, 244, 244, 0.3);
+          }
+          
+          h1 {
+          margin-bottom: 10px;
+            font-size: 17px;
+            font-weight: 300;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #bbb;
+          }
+          
+          h1 span {
+            border: 2px solid #ffffff;
+            padding: 3px 2px 3px 7px;
+            border-radius: 6px;
+            font-weight: 400;
+          }
+          h5 span {
+            border: 2px solid #111111;
+            padding: 3px 2px 3px 7px;
+            border-radius: 6px;
+            font-weight: 400;
+          }
+       
+          .button_container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 140px;
+          
+          }
+          
+          
+          .footer {
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            text-align: center;
+          }
+          
+          .footer p {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+          }
+          
+          
+      
+      
+      
+      
+      
+      
+      
+
+}

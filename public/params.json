@@ -1,0 +1,50 @@
+{
+    "Select": {   
+        "id": 0,
+        "title1":"COIN",
+        "desc": "Get tokens every 24 hours!",
+        "img": "https://stake-take.com/img/_Logo.svg",
+        "name": "celestia",
+        "coinType": 118,
+        "coinDenom":"TIA",
+        "coinMinimalDenom": "utia",
+        "coinDecimals": 6,
+        "chainId": "blockspacerace-0",
+        "chainName": "Blockspace Race Testnet",
+        "rpc": "https://rpc.celestia.stake-take.com",
+        "rest": "https://api.celestia.stake-take.com"
+    },
+   "Celestia": {   
+        "id": 1,
+        "title1": "CELESTIA",
+        "desc": "Blockspace Race",
+        "img": "https://faucet.stake-take.com/assets/Celestia.svg",
+        "exp": "celestia-testnet",
+        "twitter": "CelestiaOrg",
+        "name": "celestia",
+        "coinType": 118,
+        "coinDenom":"TIA",
+        "coinMinimalDenom": "utia",
+        "coinDecimals": 6,
+        "chainId": "blockspacerace-0",
+        "chainName": "Blockspace Race Testnet",
+        "rpc": "https://rpc.celestia.stake-take.com",
+        "rest": "https://api.celestia.stake-take.com"
+    },
+    "Humans":
+    {   
+        "id": 2,
+        "title1": "HUMANS",
+        "desc": "Humans-Testnet",
+        "img": "https://faucet.stake-take.com/assets/humans.png",
+        "name": "human",
+        "coinType": 118,
+        "coinDenom":"HEART",
+        "coinMinimalDenom": "aHEART",
+        "coinDecimals": 18,
+        "chainId": "humans_3000-23",
+        "chainName": "humans-testnet",
+        "rpc": "https://rpc.humans.stake-take.com",
+        "rest": "https://api.humans.stake-take.com"
+    }
+}

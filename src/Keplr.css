@@ -1,0 +1,192 @@
+
+
+.ModalContainer{
+  border-radius: 10px;
+  height: 160px;
+  width: 680px;
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#2f2727), to(black));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.396), 0 6px 20px 0 rgba(0, 0, 0, 0.67);
+}
+.modalMessage{
+  margin-top: 50px;
+ 
+   padding-inline-start: 30px 50px;
+    margin-right: 0px;
+    font-weight: bold;
+    color: goldenrod;
+  margin-left: 0px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.closeButton{
+  text-align: center;
+    position: fixed;
+    background-color: rgba(255, 217, 0, 0.658) !important;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 630px;
+    cursor: pointer;
+    padding: 2px 6px;
+    transition-duration: 0.4s;
+}
+.modalButtons{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row;
+  gap: 10px; 
+}
+
+.Modal{
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(226, 216, 216, 0.137);
+font-size: 21px;
+}
+
+
+.overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 9999; 
+}
+.balance {
+  color: goldenrod;
+  display: block;
+  position: fixed;
+  width: 500px;
+ transform: translate(4.4%,24%);
+  text-align: left; 
+}
+
+
+
+.t_address{
+  color: goldenrod;
+  font-weight: -100;
+  width: 410px;
+  transform: translate(11%,70%);
+
+}
+
+._address{
+  color: goldenrod;
+ cursor:pointer;
+  width: 410px;
+  transform: translate(11%,66%);
+
+}
+.message_tooltip{
+  position:absolute;
+  color: white;
+  transform: translate(785%,-90%);
+  font-size: 11px;
+}
+
+.walletAddressButton, .getTokens
+{ padding: 8px 32px;
+  text-align: center;
+  background-color: rgba(255, 217, 0, 0.658) !important;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.text{
+  transform: translate(0%,0%);
+}
+.TwitSt , .Twit , .TxHash{
+width: 200px;
+height: 40px ;
+  text-align: center;
+  background-color: rgba(21, 21, 20, 0.658) !important;
+  border-radius: 20px;
+  color: rgb(253, 249, 249);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+
+.walletAddressButton:focus-visible, .getTokens:focus-visible {
+
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.walletAddressButton:active, .getTokens:active {
+  background-color: #0e0e0eda;
+  border-color: #8e8e8e;
+  position: relative;
+  display: inline-block;
+  transform: scale(.96);
+}
+
+.walletAddressButton:disabled, .getTokens:disabled {
+  border-color: #0a0909da;
+  color: #000000;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+
+.errorMessage{
+font-weight: bold;
+color: goldenrod;
+text-transform: uppercase;
+display: block;
+}
+
+
+  .txmsg{
+    width: 200px;
+    height: 40px ;
+      text-align: center;
+      background-color: rgba(21, 21, 20, 0.658) !important;
+      border-radius: 20px;
+      color: rgb(253, 249, 249);
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      margin-top: 5px;
+      margin-left: 10px;
+
+  } 
+
+
+
+
+
+
+
+
+
+
+
